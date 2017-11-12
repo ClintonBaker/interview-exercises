@@ -1,0 +1,8 @@
+.Bar {
+  display: inline-block;
+  border: 1px solid black;
+  border-radius: 4px;
+  width: 50px;
+  margin-left: 10px;
+  background: black;
+}

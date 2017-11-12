@@ -1,0 +1,7 @@
+.Label {
+  display: inline-block;
+  margin-left: 10px;
+  width: 52px;
+  text-align: center;
+  overflow-wrap: normal;
+}

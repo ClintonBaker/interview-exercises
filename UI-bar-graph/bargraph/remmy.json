@@ -1,0 +1,19 @@
+{
+  "templates": {
+    "comp": {
+      "path": "source/.remmy/comp",
+      "dest": "source/comps"
+    },
+    "wrappedcomp": {
+      "path": "source/.remmy/wrappedcomp",
+      "dest": "source/comps"
+    },
+		"scene": {
+			"path": "source/.remmy/scene",
+			"dest": "source/scenes"
+		}
+  },
+  "variables": {
+    "$CSS": "css"
+  }
+}

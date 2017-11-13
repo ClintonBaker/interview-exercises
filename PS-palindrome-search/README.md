@@ -11,3 +11,5 @@
 - After you complete the exercise, provide any notes on your code below such as how to run your example
 
 ## Candidate Notes:
+
+To run exercise simply open the index.html file in your browser, then open browser console to see JavaScript output.

@@ -20,7 +20,7 @@ const secLongestPal = pal => {
   }
 
   return !pals.length
-    ? "No Palindrome Exists"
+    ? "No Palindrome exists"
     : pals.length === 1
       ? "No second Palindrome exists"
       : "Found Palindrome: " + pals[1];

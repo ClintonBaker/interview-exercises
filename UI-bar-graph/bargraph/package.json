@@ -96,7 +96,12 @@
           "generateScopedName": "[name]_[local]__"
         }
       ],
-      ["webpack-alias", {"config": "./webpack/webpack.config.js"}]
+      [
+        "webpack-alias",
+        {
+          "config": "./webpack/webpack.config.js"
+        }
+      ]
     ],
     "presets": [
       "env",

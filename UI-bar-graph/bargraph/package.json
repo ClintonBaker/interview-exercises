@@ -14,7 +14,8 @@
     "nodemon": "nodemon",
     "remmy": "remmy",
     "test": "ava",
-    "start": "node -r babel-register ./node_modules/.bin/webpack-dev-server --config ./webpack/webpack.config"
+    "start":
+      "node -r babel-register ./node_modules/.bin/webpack-dev-server --config ./webpack/webpack.config"
   },
   "dependencies": {
     "babel-plugin-syntax-optional-chaining": "^7.0.0-alpha.13",
@@ -103,20 +104,12 @@
         }
       ]
     ],
-    "presets": [
-      "env",
-      "react",
-      "stage-0"
-    ]
+    "presets": ["env", "react", "stage-0"]
   },
   "ava": {
     "verbose": true,
     "tap": false,
-    "require": [
-      "babel-register",
-      "babel-polyfill",
-      "ignore-styles"
-    ],
+    "require": ["babel-register", "babel-polyfill", "ignore-styles"],
     "babel": "inherit",
     "files": "source/**/*.t.js"
   }

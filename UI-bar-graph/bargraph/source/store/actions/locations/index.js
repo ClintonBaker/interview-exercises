@@ -1,1 +1,1 @@
-export getLocations from './getLocations';
+export getLocations from "./getLocations";

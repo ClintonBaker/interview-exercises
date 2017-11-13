@@ -1,21 +1,15 @@
-import React from 'react';
-import { Label } from '@comps';
-import './styles/Labels.css';
+import React from "react";
+import { Label } from "@comps";
+import "./styles/Labels.css";
 
-type PropsT = {
-	children: any
-};
-
-const Labels = (props: PropsT) => {
-	return (
-		<div styleName="Labels">
-			{props.locations.map((location, index) => {
-				if (index < props.needed) {
-					return <Label key={index} name={location} />;
-				}
-			})}
-		</div>
-	);
+const Labels = props => {
+  return (
+    <div styleName="Labels">
+      <For each="location" index="idx" of={props.locations}>
+        <Label key={idx} name={location} />
+      </For>
+    </div>
+  );
 };
 
 export default Labels;

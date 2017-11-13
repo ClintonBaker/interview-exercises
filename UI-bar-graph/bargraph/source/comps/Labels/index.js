@@ -1,1 +1,1 @@
-export Labels from './Labels';
+export Labels from "./Labels";

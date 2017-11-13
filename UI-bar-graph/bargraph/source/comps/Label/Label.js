@@ -1,6 +1,6 @@
-import React from 'react';
+import React from "react";
 
-import './styles/Label.css';
+import "./styles/Label.css";
 
 type PropsT = {
   name: string

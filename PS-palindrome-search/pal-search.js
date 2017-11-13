@@ -29,9 +29,7 @@ const secLongestPal = pal => {
 const checkPal = pal => {
   const firstHalf = pal.slice(0, pal.length / 2);
   const secondHalf = pal.slice(Math.ceil(pal.length / 2));
-  return secondHalf.search(reverse(firstHalf)) >= 0 
-    ? true 
-    : false;
+  return secondHalf.search(reverse(firstHalf)) >= 0 ? true : false;
 };
 
 const reverse = str => {

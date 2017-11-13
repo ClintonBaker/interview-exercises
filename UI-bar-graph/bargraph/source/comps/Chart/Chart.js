@@ -1,18 +1,14 @@
-import React from 'react';
-import { Bar } from '@comps';
+import React from "react";
+import { Bar } from "@comps";
 
-import './styles/Chart.css';
+import "./styles/Chart.css";
 
-type PropsT = {
-  children: any
-};
-
-const Chart = (props: PropsT) => {
+const Chart = props => {
   return (
     <div styleName="Chart">
-      {props.data.map((height, index) => {
-        return <Bar key={index} height={height} />;
-      })}
+      <For each="height" index="idx" of={props.data}>
+        <Bar key={idx} height={height} />
+      </For>
     </div>
   );
 };

@@ -8,7 +8,7 @@
 
 ## Candidate Notes:
 
-In your terminal navigate to the bargraph folder and install dependencies with npm i
-After dependencies are installed run npm run pack-watch
-navigate to localhost:8080 in your browser of choice to see the app
-To run tests, simply run npm t
+ - In your terminal navigate to the bargraph folder and install dependencies with npm i
+ - After dependencies are installed run npm run pack-watch
+ - navigate to localhost:8080 in your browser of choice to see the app
+ - To run tests, simply run npm t
